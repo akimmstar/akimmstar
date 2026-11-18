@@ -26,7 +26,7 @@
   <img src="https://skillicons.dev/icons?i=python,mysql,html,css,js,git,github,vscode&theme=dark" alt="Tools and technologies I use or am learning" />
 </div>
 
-> Some tools are still part of my learning journey; this section does not imply expert proficiency.
+> Some tools are still part of my learning journey this section does not imply expert proficiency.
 
 ### 💼 Experience & Learning Journey
 
