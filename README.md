@@ -39,6 +39,7 @@
 ### 🚀 Featured Project
 
 **🌐 [Porto](https://github.com/akimmstar/Porto)**
+**🌐 [ProgCashier](https://github.com/akimmstar/ProgCashier)**
 
 ---
 
