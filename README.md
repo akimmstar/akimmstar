@@ -71,7 +71,6 @@
 
 </details>
 
-> Animated graphs will appear after the GitHub Actions workflow runs successfully.
 
 ---
 
