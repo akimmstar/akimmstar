@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0b0e1a" />
+  <meta name="description" content="Luqman's Developer Arcade: play Snake and Memory Match." />
+  <title>Developer Arcade | akimmstar</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="grid-glow" aria-hidden="true"></div>
+  <div class="shell">
+    <header class="topbar">
+      <a class="brand" href="https://github.com/akimmstar" target="_blank" rel="noopener noreferrer"><span class="brand-icon">✳</span> AKIMMSTAR<span class="subbrand">.ARCADE</span></a>
+      <a class="github-link" href="https://github.com/akimmstar" target="_blank" rel="noopener noreferrer">↗ GitHub Profile</a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow"><span class="live-dot"></span> DEVELOPER PLAYGROUND / V1.0</p>
+        <h1>CODE. <span>PLAY.</span><br>REPEAT<span class="cursor">_</span></h1>
+        <p class="lead">A little arcade corner, crafted with HTML, CSS & JavaScript.<br>Choose a game and have fun! 🎮</p>
+        <div class="hero-tags"><span>⚡ NO INSTALL</span><span>⌨ KEYBOARD READY</span><span>📱 MOBILE FRIENDLY</span></div>
+      </section>
+
+      <section class="arcade" aria-label="Mini games">
+        <div class="section-head"><div><p class="kicker">// SELECT A GAME</p><h2>Arcade Library <span>02 GAMES</span></h2></div><span class="online-indicator">● ALL SYSTEMS ONLINE</span></div>
+        <div class="tabs" role="tablist" aria-label="Pilih permainan">
+          <button class="tab active" id="tab-snake" role="tab" aria-selected="true" aria-controls="panel-snake"><span class="emoji">🐍</span><span>SNAKE<span class="tab-sub">CLASSIC ARCADE</span></span></button>
+          <button class="tab" id="tab-memory" role="tab" aria-selected="false" aria-controls="panel-memory"><span class="emoji">🧠</span><span>MEMORY MATCH<span class="tab-sub">BRAIN CHALLENGE</span></span></button>
+        </div>
+        <section class="game-panel" id="panel-snake" role="tabpanel" aria-labelledby="tab-snake">
+          <div class="game-top"><div><div class="game-label">GAME 01 / ENDLESS</div><h3>🐍 Neon Snake</h3><p>Eat the pixels. Avoid the walls. Beat your best score.</p></div><div class="scoreboards"><div class="score"><small>SCORE</small><strong id="snake-score">000</strong></div><div class="score"><small>BEST</small><strong id="snake-best">000</strong></div></div></div>
+          <div class="snake-area"><div class="canvas-wrap"><canvas id="snake-canvas" width="360" height="360" aria-label="Snake game grid"></canvas><div id="snake-overlay" class="game-overlay"><div class="overlay-symbol">🐍</div><strong id="snake-overlay-title">READY, PLAYER ONE?</strong><span id="snake-overlay-subtitle">Press START to begin</span></div></div><aside class="instructions"><span class="instructions-title">HOW TO PLAY_</span><p>Collect the pink pixels to grow. Every snack earns <strong>+10 points</strong>.</p><div class="key-demo"><kbd>↑</kbd><div><kbd>←</kbd><kbd>↓</kbd><kbd>→</kbd></div></div><p>Arrow keys / WASD to move.<br>Press <kbd>SPACE</kbd> to pause.</p><div class="mini-badge">🏆 PERSONAL BEST SAVED</div></aside></div>
+          <div class="game-controls"><button class="primary-button" id="snake-start">▶ START GAME</button><button class="outline-button" id="snake-pause">Ⅱ PAUSE</button><button class="outline-button" id="snake-reset">↻ RESET</button></div>
+          <div class="touch-controls" aria-label="Kontrol layar sentuh"><button data-dir="up" aria-label="Atas">↑</button><div><button data-dir="left" aria-label="Kiri">←</button><button data-dir="down" aria-label="Bawah">↓</button><button data-dir="right" aria-label="Kanan">→</button></div></div>
+        </section>
+        <section class="game-panel hidden" id="panel-memory" role="tabpanel" aria-labelledby="tab-memory">
+          <div class="game-top"><div><div class="game-label">GAME 02 / BRAIN MODE</div><h3>🧠 Memory Match</h3><p>Flip cards and find all 8 matching pairs.</p></div><div class="scoreboards"><div class="score"><small>MOVES</small><strong id="memory-moves">00</strong></div><div class="score"><small>MATCHED</small><strong id="memory-pairs">0/8</strong></div></div></div>
+          <div class="memory-container"><div id="memory-grid" class="memory-grid" aria-label="Memory game cards"></div><aside class="instructions"><span class="instructions-title">HOW TO PLAY_</span><p>Flip two cards. If the icons match, they stay visible.</p><p>Find all <strong>8 pairs</strong> in as few moves as possible.</p><div class="mini-badge">🧩 FLEX YOUR MEMORY</div><div id="memory-win" class="memory-win" role="status" aria-live="polite"></div></aside></div>
+          <div class="game-controls"><button class="primary-button" id="memory-restart">↻ NEW ROUND</button></div>
+        </section>
+      </section>
+    </main>
+    <footer><span>BUILT WITH <span class="heart">♥</span> BY <a href="https://github.com/akimmstar" target="_blank" rel="noopener noreferrer">@AKIMMSTAR</a></span><span>HTML / CSS / JAVASCRIPT · 2026</span></footer>
+  </div>
+</body>
+</html>
