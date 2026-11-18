@@ -38,9 +38,7 @@
 
 ### 🚀 Featured Project
 
-**🌐 [Porto](https://github.com/akimmstar/Porto)** — A public HTML repository; follow its progress on GitHub.
-
-**🕹️ [Developer Arcade](https://akimmstar.github.io/akimmstar/)** — Two playable browser games, Snake and Memory Match, built with HTML, CSS, and JavaScript. *(Link goes live after enabling GitHub Pages.)*
+**🌐 [Porto](https://github.com/akimmstar/Porto)**
 
 ---
 
