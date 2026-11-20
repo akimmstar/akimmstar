@@ -15,7 +15,7 @@
 
 ### 👨‍💻 About Me
 
-- 🎯 **Career interest:** Data Analysis
+- 🎯 **Career interest:** Data Sience
 - 🌱 **Currently learning:** Python, SQL, web technologies, and database fundamentals
 - 📍 **Based in:** Padang, Indonesia
 - 💻 **What I enjoy:** Building projects, exploring data, and learning by experimenting
