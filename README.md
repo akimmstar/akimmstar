@@ -43,6 +43,29 @@
 
 ---
 
+### 📊 GitHub Analytics
+
+<div align="center">
+
+**⚡ Coding Statistics & Most Used Languages**
+
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=akimmstar&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9&icon_color=38BDF8&ring_color=8B5CF6" alt="GitHub statistics of akimmstar" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=akimmstar&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9" alt="Most used programming languages across public repositories" />
+
+**🔥 Contribution Streak**
+
+<img width="70%" src="https://streak-stats.demolab.com?user=akimmstar&theme=tokyonight&hide_border=true&background=0D1117&ring=8B5CF6&fire=38BDF8&currStreakLabel=A78BFA" alt="Contribution streak for akimmstar" />
+
+**📈 Contribution Activity (Last 31 Days)**
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=akimmstar&bg_color=0D1117&color=C9D1D9&title_color=A78BFA&line=8B5CF6&point=38BDF8&area=true&area_color=8B5CF6&hide_border=true&days=31" alt="GitHub contribution activity graph for akimmstar" />
+
+</div>
+
+> 📌 Language percentages reflect code detected in eligible GitHub repositories, not skill proficiency. Third-party stat cards may load slowly or temporarily reach rate limits.
+
+---
+
 ### 🎮 My Contribution Arcade
 
 **👻 Pac-Man eats my contribution graph**
