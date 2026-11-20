@@ -64,8 +64,6 @@
 
 </div>
 
-> 📌 Language percentages reflect code detected in eligible GitHub repositories, not skill proficiency. Third-party stat cards may load slowly or temporarily reach rate limits.
-
 ---
 
 ### 🎮 My Contribution Arcade
