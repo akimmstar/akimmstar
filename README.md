@@ -2,7 +2,7 @@
 
 # 👾 Hi, I'm Luqman!
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1100&color=8B5CF6&center=true&vCenter=true&width=550&lines=Junior+Data+Sience;Learning+Python%2C+SQL+%26+Web+Development;Welcome+to+my+Developer+Arcade!" alt="Animated introduction" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1100&color=8B5CF6&center=true&vCenter=true&width=550&lines=Junior+Data+Engineer;Learning+Python%2C+SQL+%26+Web+Development;Welcome+to+my+Developer+Arcade!" alt="Animated introduction" />
 
 **Curious about data, databases, and building useful web projects.**
 
